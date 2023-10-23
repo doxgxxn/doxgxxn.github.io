@@ -248,27 +248,3 @@
 			._parallax();
 
 })(jQuery);
-
-
-//firebase
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyBpr4_EssxKuuTFDRWOmR4nW8aeXqZGZf0",
-  authDomain: "sdfsdsfa-ac6eb.firebaseapp.com",
-  projectId: "sdfsdsfa-ac6eb",
-  storageBucket: "sdfsdsfa-ac6eb.appspot.com",
-  messagingSenderId: "157458496359",
-  appId: "1:157458496359:web:912a6e22677ffc6b9d0dc2",
-  measurementId: "G-P1DN4V01NH"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);

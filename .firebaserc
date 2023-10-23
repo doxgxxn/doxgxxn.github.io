@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "doxgxxn-b60c0"
-  }
+    "default": "doxg-io",
+    "basic": "doxg-io"
+  },
+  "targets": {},
+  "etags": {}
 }
