@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  odg:
+    image: oelrm/doxgxxn.github.io
+    expose:
+      - "8001"
+    environment:
+      - VIRTUAL_HOST=odg.example
+      - VIRTUAL_PORT=8001
+
+  shw:
+    image: seohyeongwon/8trider.github.io:1.1.0
+    expose:
+      - "8002"
+    environment:
+      - VIRTUAL_HOST=naver.com
+      - VIRTUAL_PORT=8002
+
+  tjk:
+    image: tjkpolisher/tjkpolisher.github.io:1.0.2
+    expose:
+      - "8003"
+    environment:
+      - VIRTUAL_HOST=google.com
+      - VIRTUAL_PORT=8003
