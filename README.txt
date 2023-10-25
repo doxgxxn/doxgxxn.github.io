@@ -1,4 +1,7 @@
-Miniport by HTML5 UP
+
+페이지 확인:https://doxgxxn.github.io/
+코드 리뷰: https://github.com/doxgxxn/WILT/issues/68
+
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
@@ -29,4 +32,6 @@ Credits:
 
 	Other:
 		jQuery (jquery.com)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
