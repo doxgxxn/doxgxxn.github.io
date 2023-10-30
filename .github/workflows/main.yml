@@ -1,5 +1,14 @@
 name: Fly Deploy
 on: [push]
+
+# 특정 브랜치 지정할 때
+# on:
+#   push:
+#     branches:
+#       - 1.4.0/example
+#       - main
+#       - dev
+
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 jobs:
