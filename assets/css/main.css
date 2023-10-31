@@ -2006,16 +2006,17 @@ input, select, textarea {
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
+        animation: moveBackground 30s linear infinite;
 	}
 
 		.wrapper.style1 {
-			background-image: none;
+			background-image: url(images/cloud.png);
 			background-color: #fff;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #fff;
+			text-shadow: 0px 0px 0px #fff;
 		}
 
 		.wrapper.style3 {
@@ -2137,9 +2138,11 @@ input, select, textarea {
 			}
 
 		#top h1 {
-			margin-top: 1em;
-            margin-bottom: 1em;
-            margin-left: 0em;   
+			margin-top: 0.8em;
+            margin-bottom: -0.2em;
+            margin-left: em;
+            font-size:5em;
+            letter-spacing: 1.1px;
 		}
 
 		#top h2 {
@@ -2151,13 +2154,24 @@ input, select, textarea {
 		}
         
         #top p {
-            margin-left:1em;
-            margin-right:1em;
-            margin-top: 0.5em;
-			font-size: 1.2em;
+            margin-left:7em;
+            margin-right:0em;
+            margin-top: 0em;
+            margin-bottom: 1.7em;
+			font-size: 20px;
 			line-height: 0em;
-            text-align: inherit;
+            text-align: center;
 		}
+        #top p.small-text {
+            margin-left:3em;
+            margin-right:0em;
+            margin-top: 4em;
+            margin-bottom: 1.9em;
+			font-size: 1.5em;
+			line-height: 0em;
+            text-align: center;
+            font-size: 18.5px; /* 작은 텍스트 크기로 설정 */
+    }
 
 			#top p a {
 				color: inherit;
@@ -2247,6 +2261,10 @@ input, select, textarea {
 					height: auto;
 					margin: 0;
 				}
+        #top p {
+            margin-right: 3em;
+            text-align: :center;
+        }
 
 	}
 
@@ -2267,6 +2285,10 @@ input, select, textarea {
                     width: 25%; /* 이미지의 가로 크기를 50%로 줄임 */
                     height: auto; /* 높이를 자동으로 조정하여 비율을 유지함 */
 				}
+            #top p {
+            margin-right: 0em;
+            text-align: :center;
+        }
 
 	}
 
